@@ -1,5 +1,6 @@
 'use strict';
 // ok then
+// try 2`
 
 var Hapi = require('hapi');
 var Boom = require('boom');
