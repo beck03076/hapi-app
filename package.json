@@ -1,0 +1,33 @@
+{
+  "name": "epione",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PiichMe/epione.git"
+  },
+  "description": "Epione is the goddess of soothing of pain.",
+  "author": "Matthias Sieber <matthiasksieber@gmail.com>",
+  "dependencies": {
+    "boom": "^2.7.0",
+    "hapi": "^8.4.0",
+    "joi": "~6.1.0",
+    "request-promise-json": "^1.0.4"
+  },
+  "devDependencies": {
+    "better-console": "^0.2.4",
+    "chai": "^2.2.0",
+    "gulp": "^3.8.11",
+    "gulp-env": "^0.2.0",
+    "gulp-lab": "^1.0.5",
+    "gulp-nodemon": "^2.0.2",
+    "lab": "^5.5.1"
+  },
+  "engines": {
+    "node": "0.12"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp serve"
+  }
+}
